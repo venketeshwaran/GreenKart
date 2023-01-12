@@ -96,6 +96,7 @@ public class StepDefinition extends BaseClass {
 	public void user_click_the_proceed_button() {
 	
 		pom.getPomPage03().getProceed().click();
+		System.out.println("End");
 	}
 
 }
